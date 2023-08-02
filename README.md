@@ -30,14 +30,6 @@ DEBUG=...
 SECRET_KEY=...
 ```
 
-**static setting**
-- 프로젝트 폴더와 같은 위치에 static 디렉토리 생성
-- static 디렉토리 하위에 css, image, js 디렉토리 생성
-- 이후 다음과 같은 코드 실행
-```
-$ python3 manage.py collectstatic
-```
-
 **Migration**
 ```
 $ python3 manage.py makemigrations
